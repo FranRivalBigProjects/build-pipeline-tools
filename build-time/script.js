@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let f=+files.value,t=+time.value;if(!f||!t){res.innerText='Enter values';return;}res.innerText=`Total: ${(f*t).toFixed(2)}s`; }
